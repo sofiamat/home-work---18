@@ -16,7 +16,7 @@ export const getAllStudents = () => {
 export const createStudents = (student) => {
   const url = "http://localhost:3030/students";
 
-  return fetch(urk, {
+  return fetch(url, {
     method: "POST",
     headers: {
       "content-Type": "application/json",
